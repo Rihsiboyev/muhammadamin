@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="./style.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3i4dHmmHjWlV0xwepwGf8oYSoau-Y3PS5EfJBzRqRMZhlpmejrTkB7PiOt74y9QgEdsZEs7Fo1asOvqqQlCabQ" charset="UTF-8"></script></head>
+<body>
+  <div class="container">
+   <div class="calculator">
+    <form action="" class=" ">
+      <div class="display">
+        <input class="s" type="text" name="display">
+      </div>
+      <div class="lll">
+        <input class="chichk" type="button" value="AC" onclick="display.value = &#39;&#39;">
+        <input class="chichk" type="button" value="DE" onclick="display.value = display.value.toString().slice(0, -1)">
+        <input class="chichk" type="button" value=".">
+        <input class="chichk" type="button" value="/" onclick="display.value += &#39;/&#39;">
+      </div>
+      <div class="lll">
+        <input class="chichk" type="button" value="7" onclick="display.value += &#39;7&#39;">
+        <input class="chichk" type="button" value="8" onclick="display.value += &#39;8&#39;">
+        <input class="chichk" type="button" value="9" onclick="display.value += &#39;9&#39;">
+        <input class="chichk" type="button" value="*" onclick="display.value += &#39;*&#39;">
+      </div>
+      <div class="lll">
+        <input class="chichk" type="button" value="4" onclick="display.value += &#39;4&#39;">
+        <input class="chichk" type="button" value="5" onclick="display.value += &#39;5&#39;">
+        <input class="chichk" type="button" value="6" onclick="display.value += &#39;6&#39;">
+        <input class="chichk" type="button" value="-" onclick="display.value += &#39;-&#39;">
+      </div>
+      <div class="lll">
+        <input class="chichk" type="button" value="1" onclick="display.value += &#39;1&#39;">
+        <input class="chichk" type="button" value="2" onclick="display.value += &#39;2&#39;">
+        <input class="chichk" type="button" value="3" onclick="display.value += &#39;3&#39;">
+        <input class="chichk" type="button" value="+" onclick="display.value += &#39;+&#39;">
+      </div>
+      <div class="lll">
+        <input class="chichk" type="button" value="00" onclick="display.value += &#39;00&#39;">
+        <input class="chichk" type="button" value="0" onclick="display.value += &#39;0&#39;">
+        <input class="chichp" type="button" value="=" onclick="display.value = eval(display.value)" class="equal">
+      </div>
+    </form>
+   </div>
+  </div>
+
+</body></html>
